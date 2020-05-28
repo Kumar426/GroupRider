@@ -1,0 +1,25 @@
+{
+  "name": "riders",
+  "version": "1.0.1",
+  "description": "find your riders group member",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon src/app.js",
+    "build": "nodemon src/app.js"
+  },
+  "author": "gourav",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.2",
+    "now": "^16.7.3",
+    "validator": "^12.2.0"
+  }
+}

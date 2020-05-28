@@ -1,0 +1,9 @@
+{
+    "build": {
+      "env": {
+        "PORT": "@port",
+        "MONGODB_URL": "@db_url",
+        "JWT_KEY": "@jwt"
+      }
+    }
+  }
